@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AI Adda</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Help</string>
+
+    <string name="menu_home">AI Adda</string>
+    <string name="menu_gallery">Contact US</string>
+    <string name="menu_slideshow">Suggestions..?</string>
+</resources>

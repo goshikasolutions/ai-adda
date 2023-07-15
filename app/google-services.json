@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "469130151762",
+    "firebase_url": "https://ai-adda-default-rtdb.firebaseio.com",
+    "project_id": "ai-adda",
+    "storage_bucket": "ai-adda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469130151762:android:61440c71f80a0f17f49c8b",
+        "android_client_info": {
+          "package_name": "com.example.aiadda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469130151762-3qrhatn2nqm6moec1jae5koan5vckeaq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0ar4K6iOXzOfi6cgZHABfkED9sydEdFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469130151762-3qrhatn2nqm6moec1jae5koan5vckeaq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
