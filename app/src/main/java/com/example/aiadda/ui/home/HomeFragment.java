@@ -47,19 +47,12 @@ public class HomeFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
         mDatabase = FirebaseDatabase.getInstance("https://ai-adda-86d35-default-rtdb.firebaseio.com/").getReference().child("category");
-        Log.d("TAG", "Storage IDed: " + mDatabase);
-        DatabaseReference mDatabase1 = FirebaseDatabase.getInstance().getReference().child("chats");
-        String chatItem = "Hello, World!";
-        mDatabase1.push().setValue(chatItem);
-        Log.d("TAG", "Storagesd IDed: ");
-
         chatList = new ArrayList<>();
 
         recyclerView = view.findViewById(R.id.recyclerViewChats);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         chatListAdapter = new ChatListAdapter(chatList);
         recyclerView.setAdapter(chatListAdapter);
-        Log.d("TAG", "Storagesdsdf IDed: ");
 
         mDatabase.child("list").addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
@@ -109,7 +102,7 @@ public class HomeFragment extends Fragment {
 
                     requireActivity().getSupportFragmentManager()
                             .beginTransaction()
-                            .replace(R.id.nav_home, websiteListFragment)
+                            .replace(R.id.nav_host_fragment_content_main, websiteListFragment)
                             .addToBackStack(null)
                             .commit();
                 }
